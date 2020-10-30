@@ -24,7 +24,7 @@ public class Customerdao implements ICustomer {
 	@Override
 	public Customer updateName(Customer customer) {
 		
-		return entityManager.merge(null);
+		return entityManager.merge(customer);
 	}
 
 

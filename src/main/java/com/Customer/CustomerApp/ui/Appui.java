@@ -11,14 +11,14 @@ public class Appui {
 	private ICustomerService service;
 	public void runui()
 	{
-		Customer c=new Customer();
-		c.setId(100L);
-		c.setName("bharath");
-		Customer c1=new Customer();
-		c1.setId(110L);
-		c1.setName("ram");
-		service.add(c);
-		service.add(c1);
+		Customer customer=new Customer();
+		customer.setId(100L);
+		customer.setName("bharath");
+		Customer customer1=new Customer();
+		customer1.setId(110L);
+		customer1.setName("ram");
+		service.add(customer);
+		service.add(customer1);
 		//service.update(100L,"Krish");
 	}
 

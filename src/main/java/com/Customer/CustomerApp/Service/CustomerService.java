@@ -12,9 +12,9 @@ import com.Customer.CustomerApp.dto.Customer;
 public class CustomerService implements ICustomerService{
 	@Autowired
 	private ICustomer dao;
-	
-	@Override
 	@Transactional
+	@Override
+	
 	public Customer add(Customer customer) {
 		return dao.register(customer);
 	}
